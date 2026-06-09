@@ -1,0 +1,51 @@
+shipment_id,date,origin,destination,route,carrier,status,weight_kg,cost_usd,delivery_days,estimated_days,delay_days
+SHP001,2024-01-03,New York,Los Angeles,NY-LA,FedEx,Delivered,12.5,145.00,5,4,1
+SHP002,2024-01-04,Chicago,Houston,CHI-HOU,UPS,Delivered,8.2,98.50,3,3,0
+SHP003,2024-01-05,Los Angeles,Seattle,LA-SEA,DHL,Delayed,22.1,210.00,7,5,2
+SHP004,2024-01-06,New York,Chicago,NY-CHI,FedEx,Delivered,5.0,65.00,2,2,0
+SHP005,2024-01-07,Houston,Miami,HOU-MIA,UPS,Delayed,18.3,175.50,6,4,2
+SHP006,2024-01-08,Seattle,San Francisco,SEA-SF,USPS,Delivered,3.7,42.00,2,2,0
+SHP007,2024-01-09,Chicago,New York,CHI-NY,FedEx,In Transit,14.6,132.00,0,3,0
+SHP008,2024-01-10,Miami,Atlanta,MIA-ATL,DHL,Delivered,9.8,88.75,2,2,0
+SHP009,2024-01-11,Los Angeles,New York,LA-NY,UPS,Delayed,31.2,295.00,9,6,3
+SHP010,2024-01-12,Atlanta,Chicago,ATL-CHI,FedEx,Delivered,7.3,79.00,3,3,0
+SHP011,2024-01-13,New York,Miami,NY-MIA,DHL,Delivered,11.0,118.50,4,4,0
+SHP012,2024-01-14,Houston,Los Angeles,HOU-LA,UPS,Delayed,25.5,240.00,8,5,3
+SHP013,2024-01-15,San Francisco,Seattle,SF-SEA,FedEx,Delivered,6.1,70.25,2,2,0
+SHP014,2024-01-16,Chicago,Houston,CHI-HOU,USPS,Delivered,4.4,51.00,3,3,0
+SHP015,2024-01-17,New York,Los Angeles,NY-LA,DHL,Delivered,19.7,185.00,6,5,1
+SHP016,2024-01-18,Los Angeles,Chicago,LA-CHI,FedEx,Delayed,28.3,265.50,8,5,3
+SHP017,2024-01-19,Seattle,New York,SEA-NY,UPS,Delivered,10.2,115.00,5,5,0
+SHP018,2024-01-20,Miami,Houston,MIA-HOU,DHL,Delivered,7.8,85.00,3,3,0
+SHP019,2024-01-21,Atlanta,Los Angeles,ATL-LA,FedEx,In Transit,16.4,155.00,0,6,0
+SHP020,2024-01-22,Chicago,Seattle,CHI-SEA,USPS,Delivered,5.5,63.50,4,4,0
+SHP021,2024-01-23,New York,Houston,NY-HOU,UPS,Delayed,22.9,215.00,7,5,2
+SHP022,2024-01-24,Los Angeles,Miami,LA-MIA,DHL,Delivered,13.1,125.75,5,5,0
+SHP023,2024-01-25,Houston,Chicago,HOU-CHI,FedEx,Delivered,8.7,94.00,3,3,0
+SHP024,2024-01-26,Seattle,Los Angeles,SEA-LA,UPS,Delivered,17.6,165.25,4,4,0
+SHP025,2024-01-27,Miami,New York,MIA-NY,USPS,Delayed,9.3,102.00,6,4,2
+SHP026,2024-01-28,Atlanta,Seattle,ATL-SEA,DHL,Delivered,12.0,135.00,5,5,0
+SHP027,2024-01-29,San Francisco,Chicago,SF-CHI,FedEx,Delivered,6.8,76.50,3,3,0
+SHP028,2024-01-30,New York,Atlanta,NY-ATL,UPS,Delivered,10.5,109.00,3,3,0
+SHP029,2024-01-31,Chicago,Miami,CHI-MIA,DHL,Delayed,20.4,193.50,7,5,2
+SHP030,2024-02-01,Los Angeles,Houston,LA-HOU,FedEx,Delivered,15.2,143.00,5,5,0
+SHP031,2024-02-02,Houston,New York,HOU-NY,USPS,Delivered,11.8,128.00,5,4,1
+SHP032,2024-02-03,Seattle,Chicago,SEA-CHI,UPS,Delayed,26.7,252.00,8,5,3
+SHP033,2024-02-04,Miami,Los Angeles,MIA-LA,DHL,Delivered,14.4,138.25,5,5,0
+SHP034,2024-02-05,Atlanta,Houston,ATL-HOU,FedEx,Delivered,7.1,80.00,3,3,0
+SHP035,2024-02-06,New York,San Francisco,NY-SF,UPS,In Transit,18.9,178.50,0,6,0
+SHP036,2024-02-07,Chicago,Atlanta,CHI-ATL,USPS,Delivered,5.9,67.00,2,2,0
+SHP037,2024-02-08,Los Angeles,Seattle,LA-SEA,DHL,Delayed,24.2,228.00,8,5,3
+SHP038,2024-02-09,Houston,Miami,HOU-MIA,FedEx,Delivered,9.5,101.75,4,4,0
+SHP039,2024-02-10,Seattle,Atlanta,SEA-ATL,UPS,Delivered,13.6,129.00,5,5,0
+SHP040,2024-02-11,Miami,Chicago,MIA-CHI,DHL,Delivered,8.3,91.50,3,3,0
+SHP041,2024-02-12,New York,Los Angeles,NY-LA,FedEx,Delayed,29.1,275.00,9,6,3
+SHP042,2024-02-13,Chicago,Los Angeles,CHI-LA,USPS,Delivered,6.4,72.25,4,4,0
+SHP043,2024-02-14,Los Angeles,New York,LA-NY,UPS,Delivered,16.8,158.00,5,5,0
+SHP044,2024-02-15,Atlanta,Miami,ATL-MIA,DHL,Delivered,10.7,115.50,4,4,0
+SHP045,2024-02-16,Houston,Seattle,HOU-SEA,FedEx,Delayed,23.5,221.75,8,5,3
+SHP046,2024-02-17,San Francisco,Los Angeles,SF-LA,USPS,Delivered,4.2,47.50,1,1,0
+SHP047,2024-02-18,New York,Chicago,NY-CHI,UPS,Delivered,8.0,88.00,2,2,0
+SHP048,2024-02-19,Miami,Seattle,MIA-SEA,DHL,Delivered,19.3,182.00,6,6,0
+SHP049,2024-02-20,Chicago,San Francisco,CHI-SF,FedEx,Delivered,12.7,121.50,4,4,0
+SHP050,2024-02-21,Los Angeles,Atlanta,LA-ATL,UPS,Delayed,27.4,259.00,9,6,3
