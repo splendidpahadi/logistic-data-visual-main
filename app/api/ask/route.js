@@ -28,7 +28,14 @@ export async function POST(request) {
     try {
       plan = await getAnalysisPlan(question, columns, sample, stats);
     } catch (err) {
-      return NextResponse.json({ error: `AI planning error: ${err.message}` }, { status: 502 });
+      console.error('AI planning error:', err.message);
+      return NextResponse.json(
+        {
+          error:
+            'The AI service is not available right now. Please check the configured AI provider and try again.',
+        },
+        { status: 502 }
+      );
     }
 
     // Step 2: Execute the plan against the real dataset
